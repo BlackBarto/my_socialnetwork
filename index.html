@@ -1,7 +1,52 @@
-<html>
-   <head>
-   </head>
-   <body>
-	<h1>Holaaaaaa</h1>
-   </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/normalize.css">
+   <title>Social Network</title>
+</head>
+<body>
+   <header>
+      <nav class="nav">
+         <div class="nav__container">
+            <ul class="nav__ul">
+               <li><a href="">Sing up</a></li>
+               <li><a href="">Sing in</a></li>
+               <li><a href="#">Pages</a></li>
+               <li><a href="#">Groups</a></li>
+               <li><a href="#">Friends</a></li>
+               <li><a href="#">Home</a></li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+   <main class="main">
+      <aside class="main__aside">
+         <ul>
+            <li><a href="">fdsfdsfds</a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+         </ul>
+      </aside>
+      <div class="container-main-post">
+         <form class="form-post" id="form-Post">
+            <input type="text" id="title" placeholder="Titulo del Post">
+            <textarea id="bodyText" cols="30" rows="10" placeholder="Coloca el texto del post Aqui"></textarea>
+            <input type="submit" id="submit" value="Publicar POST">
+         </form>
+         <div id="post-container"></div>
+      </div>
+   </main>
+   <script src="javascript/modulos/classOfPosts.js"></script>
+   <script src="javascript/main.js"></script>
+</body>
 </html>

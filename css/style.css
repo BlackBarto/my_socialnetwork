@@ -1,0 +1,67 @@
+.nav {
+    display: block;
+    background-color: rgb(8, 153, 238);
+}
+
+.nav__ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav__container {
+    padding: 0px 5px 0 0;
+}
+
+.nav__ul li {
+    list-style: none;
+}
+
+.nav__ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 13px;
+    color: #000000;
+}
+
+.nav__ul li a:hover {
+    color: #ffffff;
+    padding: 11px;
+    border: 2px solid rgb(30, 255, 0);
+    border-radius: 20px;
+}
+
+/* INICIO DEL ASIDE */
+
+.main {
+    display: flex;
+}
+
+.main__aside {
+    height: 100;
+    flex-grow: 1;
+    border: 2px solid #000000;
+}
+
+/* INICIO DEL MAIN */
+
+.container-main-post {
+    flex-grow: 3;
+    padding: 10px;
+}
+
+.form-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-post input, .form-post textarea{
+    padding: 5px;
+    margin: 5px;
+}
+
+.form-post textarea::placeholder, .form-post input::placeholder{
+    color: rgb(0, 57, 255);
+}
+
+
+
